@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="236" viewBox="0 0 460 236" role="img" aria-label="Territorial disparities">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
+  <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="bar"><rect x="0" y="0" width="460" height="4" rx="2"/></clipPath>
+  <style>
+    .t { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .card { animation: up .7s 0.12s ease-out backwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } }
+  </style>
+</defs>
+<g class="card">
+  <rect x="1" y="1" width="458" height="234" rx="16" fill="url(#bg)" stroke="#d8dee4"/>
+  <g transform="translate(16,1)" clip-path="url(#bar)">
+    <rect width="428" height="4" fill="#a8762a"/>
+    <rect x="-140" width="120" height="4" fill="url(#shine)"><animate attributeName="x" values="-140;460;460" keyTimes="0;.5;1" dur="5s" begin="1.12s" repeatCount="indefinite"/></rect>
+  </g>
+  <circle cx="50" cy="54" r="24" fill="#a8762a" fill-opacity=".15" stroke="#a8762a" stroke-opacity=".5"/>
+  <text x="50" y="62" text-anchor="middle" font-size="22">📈</text>
+  <text x="88" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Territorial disparities</text>
+  <text x="88" y="72" class="t" font-size="13" fill="#a8762a">Statistical analysis of French departments</text>
+  <text x="434" y="34" text-anchor="end" class="t" font-size="12" fill="#57606a">View repo ↗</text>
+  <text x="26" y="116" class="t" font-size="13.5" fill="#57606a">Are the best places to live also the richest? Income,</text><text x="26" y="137" class="t" font-size="13.5" fill="#57606a">unemployment, poverty and cultural facilities analyzed</text><text x="26" y="158" class="t" font-size="13.5" fill="#57606a">(correlations, ANOVA).</text>
+  <rect x="26" y="190" width="29" height="24" rx="12" fill="#a8762a" fill-opacity=".14"/><text x="40" y="206" text-anchor="middle" class="t" font-size="12" fill="#a8762a">R</text><rect x="62" y="190" width="69" height="24" rx="12" fill="#a8762a" fill-opacity=".14"/><text x="96" y="206" text-anchor="middle" class="t" font-size="12" fill="#a8762a">ggplot2</text><rect x="138" y="190" width="56" height="24" rx="12" fill="#a8762a" fill-opacity=".14"/><text x="166" y="206" text-anchor="middle" class="t" font-size="12" fill="#a8762a">ANOVA</text><rect x="200" y="190" width="56" height="24" rx="12" fill="#a8762a" fill-opacity=".14"/><text x="228" y="206" text-anchor="middle" class="t" font-size="12" fill="#a8762a">MySQL</text>
+</g>
+</svg>
