@@ -77,7 +77,7 @@ SKILLS = {
         ("📐", "Mathématiques &amp; statistique", "#5a5fb0", ["Statistique descriptive", "Statistique inférentielle", "Modélisation statistique", "Analyse de données (ACP)", "Algèbre linéaire & bilinéaire", "Optimisation", "Calcul différentiel"]),
         ("🧠", "Machine Learning &amp; IA", "#a8577e", ["Apprentissage supervisé", "Apprentissage non supervisé", "Deep Learning", "NLP", "LLM", "RAG"]),
         ("🐍", "Langages &amp; bibliothèques", "#3f6f9f", ["Python (Pandas, NumPy, Matplotlib, Scikit-learn)", "R", "SQL", "Jupyter"]),
-        ("🗄️", "Bases de données &amp; outils", "#6b7a8f", ["Modélisation de données (MCD / MLD)", "Bases relationnelles (MySQL)", "Git & GitHub", "Docker", "Algorithmique", "Graphes & réseaux"]),
+        ("🗄️", "Bases de données &amp; outils", "#6b7a8f", ["Modélisation de données (MCD / MLD)", "Bases relationnelles (MySQL)", "Bases de données NoSQL", "Git & GitHub", "Docker", "Algorithmique", "Graphes & réseaux"]),
         ("💻", "Développement web", "#a8762a", ["JavaScript (POO)", "PHP", "HTML / CSS", "jQuery & AJAX", "API (Flask, FastAPI)"]),
     ],
     "en": [
@@ -85,7 +85,7 @@ SKILLS = {
         ("📐", "Mathematics &amp; statistics", "#5a5fb0", ["Descriptive statistics", "Inferential statistics", "Statistical modeling", "Multivariate analysis (PCA)", "Linear & bilinear algebra", "Optimization", "Differential calculus"]),
         ("🧠", "Machine Learning &amp; AI", "#a8577e", ["Supervised learning", "Unsupervised learning", "Deep Learning", "NLP", "LLM", "RAG"]),
         ("🐍", "Languages &amp; libraries", "#3f6f9f", ["Python (Pandas, NumPy, Matplotlib, Scikit-learn)", "R", "SQL", "Jupyter"]),
-        ("🗄️", "Databases &amp; tools", "#6b7a8f", ["Data modeling", "Relational databases (MySQL)", "Git & GitHub", "Docker", "Algorithms", "Graphs & networks"]),
+        ("🗄️", "Databases &amp; tools", "#6b7a8f", ["Data modeling", "Relational databases (MySQL)", "NoSQL databases", "Git & GitHub", "Docker", "Algorithms", "Graphs & networks"]),
         ("💻", "Web development", "#a8762a", ["JavaScript (OOP)", "PHP", "HTML / CSS", "jQuery & AJAX", "APIs (Flask, FastAPI)"]),
     ],
 }
@@ -96,7 +96,7 @@ def skills(lang):
     body, y, n = [], PAD, 0
     for ci, (icon, title, color, items) in enumerate(SKILLS[lang]):
         d = ci * 0.35
-        body.append(f'<g class="cat" style="animation-delay:{d:.2f}s"><text x="{PAD}" y="{y + 18}" class="t" font-size="16" font-weight="700" fill="{color}">{icon}  {title}</text></g>')
+        body.append(f'<g class="cat" style="animation-delay:{d:.2f}s"><text x="{PAD}" y="{y + 18}" class="t" font-size="16" font-weight="700" fill="{color}">{title}</text></g>')
         y += 32
         x = PAD
         for item in items:
@@ -140,7 +140,8 @@ PROJECTS = [
          desc={"fr": "Application web qui estime le salaire d'une offre d'emploi. 5 modèles comparés : régression, Random Forest, KNN, MLP et Gradient Boosting (retenu).",
                "en": "Web app estimating the salary of a job offer. 5 models compared: regression, Random Forest, KNN, MLP and Gradient Boosting (best)."},
          tags=["Scikit-learn", "Pandas", "Flask", "MySQL", "PHP"]),
-    dict(slug="lirmm", icon="🩺", color="#5a5fb0", title="Stage LIRMM",
+    # Masqué pour l'instant (hidden=True) : à réactiver quand le bon lien du dépôt sera prêt.
+    dict(slug="lirmm", hidden=True, icon="🩺", color="#5a5fb0", title="Stage LIRMM",
          title_en="LIRMM Internship",
          sub={"fr": "Concepts cliniques extraits par un LLM", "en": "Clinical concepts extracted with an LLM"},
          desc={"fr": "Extraction de concepts cliniques depuis des questionnaires de santé mentale (PHQ-9, GAD-7, Epworth) avec Qwen2.5 en local, alignés sur SNOMED CT.",
@@ -203,10 +204,8 @@ def card(p, lang, index):
     <rect width="{W - 32}" height="4" fill="{c}"/>
     <rect x="-140" width="120" height="4" fill="url(#shine)"><animate attributeName="x" values="-140;{W};{W}" keyTimes="0;.5;1" dur="5s" begin="{1 + d:.2f}s" repeatCount="indefinite"/></rect>
   </g>
-  <circle cx="{P + 24}" cy="54" r="24" fill="{c}" fill-opacity=".15" stroke="{c}" stroke-opacity=".5"/>
-  <text x="{P + 24}" y="62" text-anchor="middle" font-size="22">{p["icon"]}</text>
-  <text x="{P + 62}" y="50" class="t" font-size="20" font-weight="700" fill="{TEXT}">{escape(title)}</text>
-  <text x="{P + 62}" y="72" class="t" font-size="13" fill="{c}">{escape(p["sub"][lang])}</text>
+  <text x="{P}" y="50" class="t" font-size="20" font-weight="700" fill="{TEXT}">{escape(title)}</text>
+  <text x="{P}" y="72" class="t" font-size="13" fill="{c}">{escape(p["sub"][lang])}</text>
   <text x="{W - P}" y="34" text-anchor="end" class="t" font-size="12" fill="{MUTED}">{link}</text>
   {desc}
   {"".join(pills)}
@@ -219,5 +218,6 @@ if __name__ == "__main__":
     header()
     for lang in ("fr", "en"):
         skills(lang)
-        for i, p in enumerate(PROJECTS):
+        visible = [p for p in PROJECTS if not p.get("hidden")]
+        for i, p in enumerate(visible):
             card(p, lang, i % 2)

@@ -15,10 +15,8 @@
     <rect width="428" height="4" fill="#2f7f7a"/>
     <rect x="-140" width="120" height="4" fill="url(#shine)"><animate attributeName="x" values="-140;460;460" keyTimes="0;.5;1" dur="5s" begin="1.12s" repeatCount="indefinite"/></rect>
   </g>
-  <circle cx="50" cy="54" r="24" fill="#2f7f7a" fill-opacity=".15" stroke="#2f7f7a" stroke-opacity=".5"/>
-  <text x="50" y="62" text-anchor="middle" font-size="22">💰</text>
-  <text x="88" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Salary Predict</text>
-  <text x="88" y="72" class="t" font-size="13" fill="#2f7f7a">Salary prediction with machine learning</text>
+  <text x="26" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Salary Predict</text>
+  <text x="26" y="72" class="t" font-size="13" fill="#2f7f7a">Salary prediction with machine learning</text>
   <text x="434" y="34" text-anchor="end" class="t" font-size="12" fill="#57606a">View repo ↗</text>
   <text x="26" y="116" class="t" font-size="13.5" fill="#57606a">Web app estimating the salary of a job offer. 5 models</text><text x="26" y="137" class="t" font-size="13.5" fill="#57606a">compared: regression, Random Forest, KNN, MLP and Gradient</text><text x="26" y="158" class="t" font-size="13.5" fill="#57606a">Boosting (best).</text>
   <rect x="26" y="190" width="103" height="24" rx="12" fill="#2f7f7a" fill-opacity=".14"/><text x="77" y="206" text-anchor="middle" class="t" font-size="12" fill="#2f7f7a">Scikit-learn</text><rect x="136" y="190" width="62" height="24" rx="12" fill="#2f7f7a" fill-opacity=".14"/><text x="167" y="206" text-anchor="middle" class="t" font-size="12" fill="#2f7f7a">Pandas</text><rect x="205" y="190" width="56" height="24" rx="12" fill="#2f7f7a" fill-opacity=".14"/><text x="233" y="206" text-anchor="middle" class="t" font-size="12" fill="#2f7f7a">Flask</text><rect x="268" y="190" width="56" height="24" rx="12" fill="#2f7f7a" fill-opacity=".14"/><text x="295" y="206" text-anchor="middle" class="t" font-size="12" fill="#2f7f7a">MySQL</text><rect x="330" y="190" width="42" height="24" rx="12" fill="#2f7f7a" fill-opacity=".14"/><text x="351" y="206" text-anchor="middle" class="t" font-size="12" fill="#2f7f7a">PHP</text>

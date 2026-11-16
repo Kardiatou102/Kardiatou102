@@ -27,11 +27,10 @@ Je suis en **Master 1 MIASHS** (mathématiques et informatique appliquées aux s
   <a href="https://github.com/Kardiatou102/Salary_predict"><img src="assets/cards/salary-fr.svg" width="49%" alt="Salary Predict — Prédiction de salaires"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Kardiatou102/Intership_LIRMM"><img src="assets/cards/lirmm-fr.svg" width="49%" alt="Stage LIRMM — Concepts cliniques et LLM"></a>
   <a href="https://github.com/Kardiatou102/Projet_GBSC"><img src="assets/cards/gbsc-fr.svg" width="49%" alt="Disparités territoriales en France"></a>
+  <a href="https://github.com/Kardiatou102/Projet_depart-ement-"><img src="assets/cards/departement-fr.svg" width="49%" alt="Départ(ement) — Carte interactive"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Kardiatou102/Projet_depart-ement-"><img src="assets/cards/departement-fr.svg" width="49%" alt="Départ(ement) — Carte interactive"></a>
   <a href="https://github.com/Kardiatou102?tab=repositories"><img src="assets/cards/more-fr.svg" width="49%" alt="Plus de projets"></a>
 </p>
 
@@ -58,11 +57,10 @@ I am in the first year of a **Master's in MIASHS** (applied mathematics and comp
   <a href="https://github.com/Kardiatou102/Salary_predict"><img src="assets/cards/salary-en.svg" width="49%" alt="Salary Predict — Salary prediction"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Kardiatou102/Intership_LIRMM"><img src="assets/cards/lirmm-en.svg" width="49%" alt="LIRMM Internship — Clinical concepts and LLM"></a>
   <a href="https://github.com/Kardiatou102/Projet_GBSC"><img src="assets/cards/gbsc-en.svg" width="49%" alt="Territorial disparities in France"></a>
+  <a href="https://github.com/Kardiatou102/Projet_depart-ement-"><img src="assets/cards/departement-en.svg" width="49%" alt="Départ(ement) — Interactive map"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Kardiatou102/Projet_depart-ement-"><img src="assets/cards/departement-en.svg" width="49%" alt="Départ(ement) — Interactive map"></a>
   <a href="https://github.com/Kardiatou102?tab=repositories"><img src="assets/cards/more-en.svg" width="49%" alt="More projects"></a>
 </p>
 
