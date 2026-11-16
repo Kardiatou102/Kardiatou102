@@ -73,18 +73,20 @@ def header():
 # --------------------------------------------------------------------------- compétences
 SKILLS = {
     "fr": [
-        ("📐", "Mathématiques &amp; statistique", "#5a5fb0", ["Optimisation", "Calcul différentiel", "Algèbre linéaire & bilinéaire", "ACP", "Statistique descriptive", "Statistique inférentielle", "Tests d'hypothèses", "ANOVA", "Modélisation statistique"]),
-        ("🧠", "IA, Deep Learning &amp; NLP", "#a8577e", ["Deep Learning", "NLP", "LLM", "RAG", "Fine-tuning (CamemBERT)", "Transformers", "Embeddings", "Recherche sémantique", "Vision (CLIP)", "Speech-to-text (Whisper)", "Ollama", "Qdrant"]),
-        ("📊", "Data &amp; Machine Learning", "#2f7f7a", ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "R", "ggplot2", "Jupyter"]),
-        ("💻", "Développement web", "#a8762a", ["JavaScript (POO)", "PHP", "HTML5", "CSS3", "jQuery", "AJAX", "FastAPI", "Flask"]),
-        ("🗄️", "Bases de données &amp; outils", "#3f6f9f", ["SQL", "MySQL", "MCD / MLD", "Git & GitHub", "Docker", "Algorithmique", "Graphes & réseaux"]),
+        ("📊", "Data Science", "#2f7f7a", ["Collecte & nettoyage des données", "Analyse exploratoire (EDA)", "Data visualisation", "Feature engineering", "Modélisation prédictive", "Évaluation de modèles", "Communication des résultats"]),
+        ("📐", "Mathématiques &amp; statistique", "#5a5fb0", ["Statistique descriptive", "Statistique inférentielle", "Modélisation statistique", "Analyse de données (ACP)", "Algèbre linéaire & bilinéaire", "Optimisation", "Calcul différentiel"]),
+        ("🧠", "Machine Learning &amp; IA", "#a8577e", ["Apprentissage supervisé", "Apprentissage non supervisé", "Deep Learning", "NLP", "LLM", "RAG"]),
+        ("🐍", "Langages &amp; bibliothèques", "#3f6f9f", ["Python (Pandas, NumPy, Matplotlib, Scikit-learn)", "R", "SQL", "Jupyter"]),
+        ("🗄️", "Bases de données &amp; outils", "#6b7a8f", ["Modélisation de données (MCD / MLD)", "Bases relationnelles (MySQL)", "Git & GitHub", "Docker", "Algorithmique", "Graphes & réseaux"]),
+        ("💻", "Développement web", "#a8762a", ["JavaScript (POO)", "PHP", "HTML / CSS", "jQuery & AJAX", "API (Flask, FastAPI)"]),
     ],
     "en": [
-        ("📐", "Mathematics &amp; statistics", "#5a5fb0", ["Optimization", "Differential calculus", "Linear & bilinear algebra", "PCA", "Descriptive statistics", "Inferential statistics", "Hypothesis testing", "ANOVA", "Statistical modeling"]),
-        ("🧠", "AI, Deep Learning &amp; NLP", "#a8577e", ["Deep Learning", "NLP", "LLM", "RAG", "Fine-tuning (CamemBERT)", "Transformers", "Embeddings", "Semantic search", "Vision (CLIP)", "Speech-to-text (Whisper)", "Ollama", "Qdrant"]),
-        ("📊", "Data &amp; Machine Learning", "#2f7f7a", ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "R", "ggplot2", "Jupyter"]),
-        ("💻", "Web development", "#a8762a", ["JavaScript (OOP)", "PHP", "HTML5", "CSS3", "jQuery", "AJAX", "FastAPI", "Flask"]),
-        ("🗄️", "Databases &amp; tools", "#3f6f9f", ["SQL", "MySQL", "Data modeling", "Git & GitHub", "Docker", "Algorithms", "Graphs & networks"]),
+        ("📊", "Data Science", "#2f7f7a", ["Data collection & cleaning", "Exploratory data analysis (EDA)", "Data visualization", "Feature engineering", "Predictive modeling", "Model evaluation", "Communicating results"]),
+        ("📐", "Mathematics &amp; statistics", "#5a5fb0", ["Descriptive statistics", "Inferential statistics", "Statistical modeling", "Multivariate analysis (PCA)", "Linear & bilinear algebra", "Optimization", "Differential calculus"]),
+        ("🧠", "Machine Learning &amp; AI", "#a8577e", ["Supervised learning", "Unsupervised learning", "Deep Learning", "NLP", "LLM", "RAG"]),
+        ("🐍", "Languages &amp; libraries", "#3f6f9f", ["Python (Pandas, NumPy, Matplotlib, Scikit-learn)", "R", "SQL", "Jupyter"]),
+        ("🗄️", "Databases &amp; tools", "#6b7a8f", ["Data modeling", "Relational databases (MySQL)", "Git & GitHub", "Docker", "Algorithms", "Graphs & networks"]),
+        ("💻", "Web development", "#a8762a", ["JavaScript (OOP)", "PHP", "HTML / CSS", "jQuery & AJAX", "APIs (Flask, FastAPI)"]),
     ],
 }
 

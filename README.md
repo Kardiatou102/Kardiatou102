@@ -16,7 +16,7 @@ Je suis en **Master 1 MIASHS** (mathématiques et informatique appliquées aux s
 
 ## 🛠️ Compétences
 
-<img src="assets/skills-fr.svg" width="100%" alt="Compétences : mathématiques et statistique, IA, deep learning et NLP, data et machine learning, développement web, bases de données">
+<img src="assets/skills-fr.svg" width="100%" alt="Compétences : data science, mathématiques et statistique, machine learning et IA, langages, bases de données, développement web">
 
 ## 🚀 Mes projets
 
@@ -47,7 +47,7 @@ I am in the first year of a **Master's in MIASHS** (applied mathematics and comp
 
 ## 🛠️ Skills
 
-<img src="assets/skills-en.svg" width="100%" alt="Skills: mathematics and statistics, AI, deep learning and NLP, data and machine learning, web development, databases">
+<img src="assets/skills-en.svg" width="100%" alt="Skills: data science, mathematics and statistics, machine learning and AI, languages, databases, web development">
 
 ## 🚀 Projects
 
