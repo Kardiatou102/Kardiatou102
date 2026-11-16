@@ -65,7 +65,7 @@ def header():
 <g clip-path="url(#type)"><text x="42" y="112" class="t" font-size="50" font-weight="700" fill="url(#name)">Kardiatou BA</text></g>
 <text x="44" y="150" class="t fr" font-size="19" fill="{TEXT}">Étudiante en Master 1 MIASHS · Data Science</text>
 <text x="44" y="150" class="t en" font-size="19" fill="{TEXT}">Master's student in Applied Maths &amp; CS · Data Science</text>
-<text x="44" y="186" class="t tags" font-size="15" fill="#2f7f7a">Data · Machine Learning · Deep Learning · NLP</text>
+<text x="44" y="186" class="t tags" font-size="15" fill="#2f7f7a">Data · Machine Learning · Deep Learning</text>
 </svg>'''
     write(ASSETS / "header.svg", svg)
 
