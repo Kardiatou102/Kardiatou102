@@ -15,8 +15,10 @@
     <rect width="428" height="4" fill="#6e7781"/>
     <rect x="-140" width="120" height="4" fill="url(#shine)"><animate attributeName="x" values="-140;460;460" keyTimes="0;.5;1" dur="5s" begin="1.00s" repeatCount="indefinite"/></rect>
   </g>
-  <text x="26" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Plus de projets</text>
-  <text x="26" y="72" class="t" font-size="13" fill="#6e7781">Tous mes dépôts GitHub</text>
+  <circle cx="50" cy="54" r="24" fill="#6e7781" fill-opacity=".1" stroke="#6e7781" stroke-opacity=".45"/>
+  <g transform="translate(39.0,43.0) scale(0.917)" fill="none" stroke="#6e7781" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></g>
+  <text x="88" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Plus de projets</text>
+  <text x="88" y="72" class="t" font-size="13" fill="#6e7781">Tous mes dépôts GitHub</text>
   <text x="434" y="34" text-anchor="end" class="t" font-size="12" fill="#57606a">Voir tout ↗</text>
   <text x="26" y="116" class="t" font-size="13.5" fill="#57606a">Retrouvez l'ensemble de mes travaux, projets universitaires et</text><text x="26" y="137" class="t" font-size="13.5" fill="#57606a">expérimentations sur mon profil GitHub.</text>
   <rect x="26" y="190" width="62" height="24" rx="12" fill="#6e7781" fill-opacity=".14"/><text x="57" y="206" text-anchor="middle" class="t" font-size="12" fill="#6e7781">GitHub</text>

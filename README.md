@@ -4,21 +4,21 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kardiatou%20BA-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kardiatou-ba-45709a389/)
 
-🇫🇷 Français · [🇬🇧 English version below](#-english-version)
+Français · [English version below](#english-version)
 
 </div>
 
-## 🎓 À propos de moi
+## À propos de moi
 
 Je suis en **Master 1 MIASHS** (mathématiques et informatique appliquées aux sciences humaines et sociales), une formation pluridisciplinaire au métier de **data scientist**. Elle articule mathématiques, statistique et informatique pour modéliser et traiter des données complexes.
 
-🎯 **Mon objectif** : traduire une problématique métier en questions de données, choisir le bon périmètre, concevoir des chaînes de traitement, puis analyser et communiquer les résultats.
+**Mon objectif** : traduire une problématique métier en questions de données, choisir le bon périmètre, concevoir des chaînes de traitement, puis analyser et communiquer les résultats.
 
-## 🛠️ Compétences
+## Compétences
 
 <img src="assets/skills-fr.svg" width="100%" alt="Compétences : data science, mathématiques et statistique, machine learning et IA, langages, bases de données, développement web">
 
-## 🚀 Mes projets
+## Mes projets
 
 <p align="center"><i>Cliquez sur une carte pour ouvrir le projet.</i></p>
 
@@ -36,19 +36,19 @@ Je suis en **Master 1 MIASHS** (mathématiques et informatique appliquées aux s
 
 ---
 
-## 🇬🇧 English version
+## English version
 
-## 🎓 About me
+## About me
 
 I am in the first year of a **Master's in MIASHS** (applied mathematics and computer science for social sciences), a multidisciplinary program that trains **data scientists**. It combines mathematics, statistics and computer science to model and process complex data.
 
-🎯 **My goal**: turn a business problem into data questions, define the right scope, design data pipelines, then analyze and communicate the results.
+**My goal**: turn a business problem into data questions, define the right scope, design data pipelines, then analyze and communicate the results.
 
-## 🛠️ Skills
+## Skills
 
 <img src="assets/skills-en.svg" width="100%" alt="Skills: data science, mathematics and statistics, machine learning and AI, languages, databases, web development">
 
-## 🚀 Projects
+## Projects
 
 <p align="center"><i>Click a card to open the project.</i></p>
 
@@ -66,6 +66,6 @@ I am in the first year of a **Master's in MIASHS** (applied mathematics and comp
 
 <div align="center">
 
-📫 **Contact** : [LinkedIn](https://www.linkedin.com/in/kardiatou-ba-45709a389/)
+**Contact** : [LinkedIn](https://www.linkedin.com/in/kardiatou-ba-45709a389/)
 
 </div>

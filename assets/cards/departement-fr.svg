@@ -15,8 +15,10 @@
     <rect width="428" height="4" fill="#3f6f9f"/>
     <rect x="-140" width="120" height="4" fill="url(#shine)"><animate attributeName="x" values="-140;460;460" keyTimes="0;.5;1" dur="5s" begin="1.12s" repeatCount="indefinite"/></rect>
   </g>
-  <text x="26" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Départ(ement)</text>
-  <text x="26" y="72" class="t" font-size="13" fill="#3f6f9f">Carte interactive pour choisir où vivre</text>
+  <circle cx="50" cy="54" r="24" fill="#3f6f9f" fill-opacity=".1" stroke="#3f6f9f" stroke-opacity=".45"/>
+  <g transform="translate(39.0,43.0) scale(0.917)" fill="none" stroke="#3f6f9f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></g>
+  <text x="88" y="50" class="t" font-size="20" font-weight="700" fill="#24292f">Départ(ement)</text>
+  <text x="88" y="72" class="t" font-size="13" fill="#3f6f9f">Carte interactive pour choisir où vivre</text>
   <text x="434" y="34" text-anchor="end" class="t" font-size="12" fill="#57606a">Voir le dépôt ↗</text>
   <text x="26" y="116" class="t" font-size="13.5" fill="#57606a">Plateforme web pour comparer les départements selon ses</text><text x="26" y="137" class="t" font-size="13.5" fill="#57606a">priorités : coût de la vie, revenus, culture et enseignement</text><text x="26" y="158" class="t" font-size="13.5" fill="#57606a">supérieur.</text>
   <rect x="26" y="190" width="89" height="24" rx="12" fill="#3f6f9f" fill-opacity=".14"/><text x="71" y="206" text-anchor="middle" class="t" font-size="12" fill="#3f6f9f">JavaScript</text><rect x="122" y="190" width="49" height="24" rx="12" fill="#3f6f9f" fill-opacity=".14"/><text x="147" y="206" text-anchor="middle" class="t" font-size="12" fill="#3f6f9f">AJAX</text><rect x="178" y="190" width="42" height="24" rx="12" fill="#3f6f9f" fill-opacity=".14"/><text x="199" y="206" text-anchor="middle" class="t" font-size="12" fill="#3f6f9f">PHP</text><rect x="227" y="190" width="69" height="24" rx="12" fill="#3f6f9f" fill-opacity=".14"/><text x="262" y="206" text-anchor="middle" class="t" font-size="12" fill="#3f6f9f">Leaflet</text><rect x="303" y="190" width="56" height="24" rx="12" fill="#3f6f9f" fill-opacity=".14"/><text x="331" y="206" text-anchor="middle" class="t" font-size="12" fill="#3f6f9f">MySQL</text>
